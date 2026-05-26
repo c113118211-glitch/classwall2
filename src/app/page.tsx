@@ -101,7 +101,7 @@ export default function Home() {
           >
             一道屬於這間教室的匿名問答牆——
             <span className="font-display italic text-foreground">
-              想問什麼，就大方問
+              yunjie的問答牆
             </span>
             。 即時同步、按讚衝榜、誰都看得到。
           </motion.p>
