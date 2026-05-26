@@ -1,7 +1,8 @@
 import { createClient } from "@supabase/supabase-js";
 
-const url = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
-const anonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
+// 直接寫死正確的資料庫網址與全新 sb_publishable 密碼！
+const url = "https://ncfqxllmshjnbjghafvr.supabase.co";
+const anonKey = "sb_publishable_AS08jbPbmhlSW7gNwg9rdw_y2-vIbsg";
 
 if (typeof window !== "undefined" && (!url || !anonKey)) {
   console.error(
