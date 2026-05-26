@@ -1,4 +1,4 @@
-"use client";
+D"use client";
 
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useMemo, useRef } from "react";
@@ -103,7 +103,7 @@ export default function Home() {
             <span className="font-display italic text-foreground">
               yunjie的問答牆
             </span>
-            。 即時同步、按讚衝榜、誰都看得到。
+            。 即時同步、按讚衝榜、誰都看得到！
           </motion.p>
 
           <motion.div
